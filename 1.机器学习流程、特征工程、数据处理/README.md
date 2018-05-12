@@ -1,6 +1,6 @@
 # 机器学习流程、有监督学习、无监督学习、数据预处理、特征工程
 
-总共分为四个notebook，主要讲解机器学习的流程，有监督无监督学习，数据处理与特征工程。
+总共分为四个[ipynp](https://github.com/zhi-z/MachineLearning/tree/master/1.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E3%80%81%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E3%80%81%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86)文件，主要讲解机器学习的流程，有监督无监督学习，数据处理与特征工程。
 
 ## 1.背景
 
@@ -906,15 +906,24 @@ plt.tight_layout()
 plt.show()
 ```
 
-
 ![png](https://raw.githubusercontent.com/zhi-z/MachineLearning/master/1.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E3%80%81%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E3%80%81%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/README_image/output_94_0.png)
 
-## bug解决
+### bug解决
 
 1.[graphviz找不到问题](https://blog.csdn.net/lanchunhui/article/details/49472949#%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
+
+## 7.数据处理
+
+这部分主要是解决机器学习中数据的处理问题，主要是应用代码来实现相应的操作，代码部分放在[GitHub](https://github.com/zhi-z/MachineLearning/blob/master/1.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E3%80%81%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E3%80%81%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/3_preprocessing_and_validation.ipynb)中可以找到。
+
+## 8.回归问题与建模分析
+
+主要是对回归问题的建模与分析结合例子来讲解回归问题，主要是运用代码实现问题的解决过程，实现的代码在[GitHub](https://github.com/zhi-z/MachineLearning/blob/master/1.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%B5%81%E7%A8%8B%E3%80%81%E7%89%B9%E5%BE%81%E5%B7%A5%E7%A8%8B%E3%80%81%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/4.regression_problems.ipynb)中可以找到。
 
 
 
 参考文献：
 
 1.[机器学习的种类及其典型的任务](https://blog.csdn.net/by4_Luminous/article/detls/53341334)
+
+2.七月在线课件
